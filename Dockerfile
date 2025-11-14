@@ -13,7 +13,7 @@ COPY . .
 
 ENV PYTHONUNBUFFERED=1
 ENV PORT=8000
-ENV LOCAL_JP_FONT=/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc
+ENV LOCAL_JP_FONT=/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
 
 CMD streamlit run app_streamlit_nodes_labeled_parallel_full.py \
     --server.port ${PORT} \

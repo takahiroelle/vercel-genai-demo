@@ -1,5 +1,6 @@
 # app_streamlit_nodes_labeled_parallel_full.py
 # pip install streamlit numpy matplotlib pandas
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,6 +14,7 @@ st.title("ノード可視化：未学習→学習→学習後／ヒートマッ�
 manual = st.sidebar.text_input("フォントファイルパス（任意）", value="")
 chosen = set_font_auto(manual_path=manual, bundled_dir="fonts")
 st.sidebar.write("使用フォント:", chosen or "未設定（英数字のみ）")
+st.sidebar.caption(f"LOCAL_JP_FONT: {os.environ.get('LOCAL_JP_FONT', '') or '未設定'}")
 
 vocab = ["猫","犬","学校","先生","AI","学習","記憶","重み","データ","モデル","推論","最適化","誤差","勾配","ニューラル","層"]
 V = len(vocab)

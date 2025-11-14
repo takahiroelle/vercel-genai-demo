@@ -1,0 +1,15 @@
+{
+  "availability-zones:account=487221573698:region=ap-northeast-1": [
+    "ap-northeast-1a",
+    "ap-northeast-1c",
+    "ap-northeast-1d"
+  ],
+  "hosted-zone:account=487221573698:domainName=mananda.org:region=ap-northeast-1": {
+    "Id": "/hostedzone/Z060680335767BZEFVGI4",
+    "Name": "mananda.org."
+  },
+  "hosted-zone:account=487221573698:domainName=edgpt.net:region=ap-northeast-1": {
+    "Id": "/hostedzone/Z02786993509C7GZMZPJR",
+    "Name": "edgpt.net."
+  }
+}

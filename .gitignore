@@ -1,1 +1,4 @@
 .vercel
+cdk/cdk.out
+cdk/node_modules
+cdk/dist
